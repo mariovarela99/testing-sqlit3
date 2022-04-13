@@ -2,7 +2,7 @@ var sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 const fs = require("fs");
 const { Users } = require("./dados");
-const filePath = path.resolve(__dirname, "databases", "database.sqlite");
+const filePath = path.resolve(__dirname, "../", "databases", "database.sqlite");
 
 if (!fs.existsSync(filePath))
   fs.writeFile(filePath, "", (error) => {
