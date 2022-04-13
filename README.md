@@ -64,4 +64,6 @@ git clone https://github.com/mariovarela99/testing-sqlit3.git
 yarn || npm install
 # Execute o Projecto
 yarn start
+
+# Agora preste atenção no Console da execução do projecto.
 ```
