@@ -61,7 +61,7 @@ Database.close();
 # Clone o Repo
 git clone https://github.com/mariovarela99/testing-sqlit3.git
 # Instale as dependencias
-yarn | npm install
+yarn || npm install
 # Execute o Projecto
 yarn start
 ```
