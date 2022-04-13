@@ -30,7 +30,7 @@ fs.existsSync();
 fs.writeFile();
 ```
 
-#### Sqlite3
+#### SQlite3
 
 ```js
 var sqlite3 = require("sqlite3").verbose();
@@ -53,4 +53,15 @@ Database.close();
     "github": "https://github.com/mariovarela99",
     "phone": "00244940245416"
   },
+```
+
+## Clonar e Executar
+
+```bash
+# Clone o Repo
+git clone https://github.com/mariovarela99/testing-sqlit3.git
+# Instale as dependencias
+yarn | npm install
+# Execute o Projecto
+yarn start
 ```
